@@ -91,6 +91,7 @@ form .btn.b2 { width:420px; }
 .radio label { cursor:pointer; font-family:'nerissemibold'; font-size:24px; position:relative; }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .radio label:before { background:url("../img/radio.png") 0 -23px no-repeat; content:""; height:23px; width:23px; }
 =======
 .radio label:before { background:url("../i/radio.png") 0 -23px no-repeat; content:""; height:23px; width:23px; }
@@ -98,6 +99,9 @@ form .btn.b2 { width:420px; }
 =======
 .radio label:before { background:url("../i/radio.png") 0 -23px no-repeat; content:""; height:23px; width:23px; }
 >>>>>>> parent of cbf4e0e... посилання на файли
+=======
+.radio label:before { background:url("../i/radio.png"/*tpa=http://enviro-tabs.com/m/i/radio.png*/) 0 -23px no-repeat; content:""; height:23px; width:23px; }
+>>>>>>> parent of 4cd2c2d... TPPABS Removeв
 .radio label:before { left:50%; margin-left:-11px; position:absolute; top:40px; }
 .radio input[type=radio] { visibility:hidden; position:absolute; }
 .radio input[type=radio]:checked + label:before { background-position:0 0; }
