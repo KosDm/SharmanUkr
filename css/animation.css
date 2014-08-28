@@ -1,0 +1,130 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Anton Lukashov | cassador.ru */
+
+.animated { -webkit-animation-duration:1s; animation-duration:1s; }
+.animated { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+
+.orbs .orb div, #slide4 .slide-block, #slide12 #bounty .bount, #slide12 #bounty .bount:before, .tabs .tab, .results .result, .review-right, .faq-block { opacity:0; }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Animations */
+
+@-webkit-keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+
+.animated.fadeIn { -webkit-animation-name:fadeIn; animation-name:fadeIn; }
+.animated.fadeIn { -webkit-animation-duration:2s; animation-duration:2s; }
+
+@-webkit-keyframes orbAnimation {
+  0% { opacity:0; -webkit-transform:scale(0.5); }
+  100% { opacity:1; -webkit-transform:scale(1); }
+}
+
+@keyframes orbAnimation {
+  0% { opacity:0; transform:scale(0.5); }
+  100% { opacity:1; transform:scale(1); }
+}
+
+.animated.orbs .orb div { -webkit-animation-name:orbAnimation; animation-name:orbAnimation; }
+.animated.orbs .orb div { -webkit-animation-duration:0.5s; animation-duration:0.5s; }
+.animated.orbs .orb div { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+.animated.orbs .orb.orb2 div { -webkit-animation-delay:0.2s; animation-delay:0.2s; }
+.animated.orbs .orb.orb3 div { -webkit-animation-delay:0.4s; animation-delay:0.4s; }
+.animated.orbs .orb.orb4 div { -webkit-animation-delay:0.6s; animation-delay:0.6s; }
+
+@-webkit-keyframes fadeInLeft {
+  0% { opacity:0; -webkit-transform:translateX(60px); }
+  100% { opacity:1; -webkit-transform:translateX(0); }
+}
+
+@keyframes fadeInLeft {
+  0% { opacity:0; transform:translateX(60px); }
+  100% { opacity:1; transform:translateX(0); }
+}
+
+.animated.fadeInLeft { -webkit-animation-name:fadeInLeft; animation-name:fadeInLeft; }
+.animated.fadeInLeft:before { -webkit-animation-name:fadeIn; animation-name:fadeIn; }
+.animated.fadeInLeft:before { -webkit-animation-duration:0.5s; animation-duration:0.5s; }
+.animated.fadeInLeft:before { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+.animated.fadeInLeft:before { -webkit-animation-delay:0.8s; animation-delay:0.8s; }
+#slide4 .animated.slide-block { -webkit-animation-name:fadeInLeft; animation-name:fadeInLeft; }
+
+@-webkit-keyframes skewTitle {
+  0% { opacity:0; -webkit-transform:perspective(400px) rotateX(-90deg) translateY(-100px); }
+  100% { opacity:1; -webkit-transform:perspective(0) rotateX(0) translateY(0); }
+}
+
+@keyframes skewTitle {
+  0% { opacity:0; transform:perspective(400px) rotateX(-90deg) translateY(-100px); }
+  100% { opacity:1; transform:perspective(0) rotateX(0) translateY(0); }
+}
+
+.animated.skew .slide-block.title { -webkit-animation-name:skewTitle; animation-name:skewTitle; }
+.animated.skew .slide-block { -webkit-animation-duration:0.5s; animation-duration:0.5s; }
+.animated.skew .slide-block.title { -webkit-animation-duration:1s; animation-duration:1s; }
+.animated.skew .slide-block { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+.animated.skew .slide-block.title { -webkit-animation-delay:0.2s; animation-delay:0.2s; }
+
+@-webkit-keyframes skewSlides {
+  0% { opacity:0; -webkit-transform:translateY(-100px); }
+  100% { opacity:1; -webkit-transform:translateY(0); }
+}
+
+@keyframes skewSlides {
+  0% { opacity:0; transform:translateY(-100px); }
+  100% { opacity:1; transform:translateY(0); }
+}
+
+.animated.skew .slide-block { -webkit-animation-name:skewSlides; animation-name:skewSlides; }
+.animated.skew .slide-block.b1 { -webkit-animation-delay:0.4s; animation-delay:0.4s; }
+.animated.skew .slide-block.b2 { -webkit-animation-delay:0.5s; animation-delay:0.5s; }
+.animated.skew .slide-block.b3 { -webkit-animation-delay:0.6s; animation-delay:0.6s; }
+.animated.skew .slide-block.b4 { -webkit-animation-delay:0.7s; animation-delay:0.7s; }
+.animated.skew .slide-block.b5 { -webkit-animation-delay:0.8s; animation-delay:0.8s; }
+.animated.skew .slide-block.b6 { -webkit-animation-delay:0.9s; animation-delay:0.9s; }
+.animated.skew .slide-block.b7 { -webkit-animation-delay:1s; animation-delay:1s; }
+
+.animated.tabs .tab { -webkit-animation-name:orbAnimation; animation-name:orbAnimation; }
+.animated.tabs .tab { -webkit-animation-duration:1s; animation-duration:1s; }
+.animated.tabs .tab { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+.animated.tabs .tab.t2 { -webkit-animation-delay:0.2s; animation-delay:0.2s; }
+.animated.tabs .tab.t3 { -webkit-animation-delay:0.4s; animation-delay:0.4s; }
+.animated.tabs .tab.t4 { -webkit-animation-delay:0.6s; animation-delay:0.6s; }
+.animated.tabs .tab.t5 { -webkit-animation-delay:0.8s; animation-delay:0.8s; }
+.animated.tabs .tab.t6 { -webkit-animation-delay:1s; animation-delay:1s; }
+
+.animated.results .result { -webkit-animation-name:orbAnimation; animation-name:orbAnimation; }
+.animated.results .result { -webkit-animation-duration:1s; animation-duration:1s; }
+.animated.results .result { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+.animated.results .result.r2 { -webkit-animation-delay:0.2s; animation-delay:0.2s; }
+.animated.results .result.r3 { -webkit-animation-delay:0.4s; animation-delay:0.4s; }
+.animated.results .result.r4 { -webkit-animation-delay:0.6s; animation-delay:0.6s; }
+.animated.results .result.r5 { -webkit-animation-delay:0.8s; animation-delay:0.8s; }
+.animated.results .result.r6 { -webkit-animation-delay:1s; animation-delay:1s; }
+
+@-webkit-keyframes mapPoints {
+  0% { opacity:0; -webkit-transform:scale(2); }
+  100% { opacity:1; -webkit-transform:scale(1); }
+}
+
+@keyframes mapPoints {
+  0% { opacity:0; transform:scale(2); }
+  100% { opacity:1; transform:scale(1); }
+}
+
+.animated.map div { opacity:0; }
+.animated.map div { -webkit-animation-name:mapPoints; animation-name:mapPoints; }
+.animated.map div { -webkit-animation-duration:1s; animation-duration:1s; }
+.animated.map div { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
+.animated.map div.flag2 { -webkit-animation-delay:0.2s; animation-delay:0.2s; }
+.animated.map div.flag3 { -webkit-animation-delay:0.4s; animation-delay:0.4s; }
+.animated.map div.flag4 { -webkit-animation-delay:0.6s; animation-delay:0.6s; }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* cassador.ru */
