@@ -23,7 +23,11 @@
 .cboxIframe { background:#fff; }
 #cboxError { border:1px solid #fff; padding:50px; }
 #cboxLoadedContent { background:#fff; border:solid #fff; border-width:5px 20px 10px; }
+<<<<<<< HEAD
 #cboxLoadingGraphic { background:url("../img/loading.gif"/*tpa=http://enviro-tabs.com/m/i/loading.gif*/) 50% 50% no-repeat;}
+=======
+#cboxLoadingGraphic { background:url("../i/loading.gif") 50% 50% no-repeat;}
+>>>>>>> origin/master
 #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose { background:none; border:0; margin:0; overflow:visible; padding:0; width:auto; }
 #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active { outline:0; }
 #cboxSlideshow { color:#fff; position:absolute; right:90px; top:-20px; }
@@ -33,9 +37,17 @@
 #cboxCurrent { color:#492403; position:absolute; font-size:18px; line-height:30px; right:10px; top:5px; }
 #cboxCurrent { padding:10px 10px 5px 0; }
 
+<<<<<<< HEAD
 #cboxPrevious { background:url("../img/controls.png"/*tpa=http://enviro-tabs.com/m/i/controls.png*/) 0 0 no-repeat; height:40px; left:-20px; margin-top:-32px; position:absolute; text-indent:-9999px; top:50%; width:40px; }
 #cboxPrevious:hover { background-position:0 -40px; }
 #cboxNext { background:url("../img/controls.png"/*tpa=http://enviro-tabs.com/m/i/controls.png*/) -40px 0 no-repeat; height:40px; margin-top:-32px; position:absolute; right:-20px; text-indent:-9999px; top:50%; width:40px; }
 #cboxNext:hover { background-position:-40px -40px; }
 #cboxClose { background:url("../img/controls.png"/*tpa=http://enviro-tabs.com/m/i/controls.png*/) 100% 0 no-repeat; display:block; height:40px; position:absolute; right:-45px; text-indent:-9999px; top:-40px; width:40px; }
+=======
+#cboxPrevious { background:url("../i/controls.png") 0 0 no-repeat; height:40px; left:-20px; margin-top:-32px; position:absolute; text-indent:-9999px; top:50%; width:40px; }
+#cboxPrevious:hover { background-position:0 -40px; }
+#cboxNext { background:url("../i/controls.png") -40px 0 no-repeat; height:40px; margin-top:-32px; position:absolute; right:-20px; text-indent:-9999px; top:50%; width:40px; }
+#cboxNext:hover { background-position:-40px -40px; }
+#cboxClose { background:url("../i/controls.png") 100% 0 no-repeat; display:block; height:40px; position:absolute; right:-45px; text-indent:-9999px; top:-40px; width:40px; }
+>>>>>>> origin/master
 #cboxClose:hover { background-position:100% -40px; }
