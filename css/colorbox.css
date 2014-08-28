@@ -1,0 +1,41 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Colorbox Core Style */
+
+#colorbox, #cboxOverlay, #cboxWrapper { left:0; position:absolute; top:0; width:100%; z-index:9999; }
+#cboxWrapper { max-width:none; }
+#cboxOverlay { height:100%; position:fixed; width:100%; }
+#cboxMiddleLeft, #cboxBottomLeft { clear:left; }
+#cboxContent { position:relative; }
+#cboxLoadedContent { overflow:auto; -webkit-overflow-scrolling:touch; }
+#cboxTitle { margin:0; }
+#cboxLoadingOverlay, #cboxLoadingGraphic { height:100%; left:0; position:absolute; top:0; width:100%; }
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow { cursor:pointer; }
+.cboxPhoto { border:0; display:block; float:left; margin:auto; max-width:none; -ms-interpolation-mode:bicubic; }
+.cboxIframe { border:0; display:block; height:100%; width:100%; }
+#colorbox, #cboxContent, #cboxLoadedContent { box-sizing:content-box; -webkit-box-sizing:content-box; }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* Colorbox User Styles */
+
+#cboxOverlay { background:#000; }
+#colorbox { outline:0; }
+#cboxContent { background:#fff; border-radius:10px; margin:auto; padding:60px 0 20px; }
+.cboxIframe { background:#fff; }
+#cboxError { border:1px solid #fff; padding:50px; }
+#cboxLoadedContent { background:#fff; border:solid #fff; border-width:5px 20px 10px; }
+#cboxLoadingGraphic { background:url("../i/loading.gif"/*tpa=http://enviro-tabs.com/m/i/loading.gif*/) 50% 50% no-repeat;}
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose { background:none; border:0; margin:0; overflow:visible; padding:0; width:auto; }
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active { outline:0; }
+#cboxSlideshow { color:#fff; position:absolute; right:90px; top:-20px; }
+
+#cboxTitle { color:#492403; display:block; font-family:'futurafuturiscregular'; font-size:18px; left:0; line-height:30px; }
+#cboxTitle { border-radius:10px 10px 0 0; padding:10px 0 5px; position:absolute; text-align:center; top:5px; width:100%; }
+#cboxCurrent { color:#492403; position:absolute; font-size:18px; line-height:30px; right:10px; top:5px; }
+#cboxCurrent { padding:10px 10px 5px 0; }
+
+#cboxPrevious { background:url("../i/controls.png"/*tpa=http://enviro-tabs.com/m/i/controls.png*/) 0 0 no-repeat; height:40px; left:-20px; margin-top:-32px; position:absolute; text-indent:-9999px; top:50%; width:40px; }
+#cboxPrevious:hover { background-position:0 -40px; }
+#cboxNext { background:url("../i/controls.png"/*tpa=http://enviro-tabs.com/m/i/controls.png*/) -40px 0 no-repeat; height:40px; margin-top:-32px; position:absolute; right:-20px; text-indent:-9999px; top:50%; width:40px; }
+#cboxNext:hover { background-position:-40px -40px; }
+#cboxClose { background:url("../i/controls.png"/*tpa=http://enviro-tabs.com/m/i/controls.png*/) 100% 0 no-repeat; display:block; height:40px; position:absolute; right:-45px; text-indent:-9999px; top:-40px; width:40px; }
+#cboxClose:hover { background-position:100% -40px; }
