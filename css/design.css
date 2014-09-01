@@ -76,7 +76,7 @@
       #slide1 #header .header-phones a.call:hover { border-bottom:none; }
   #slide1 .picture { background:url("../img/s1_image.jpg") 0 0 no-repeat; height:388px; left:-133px; position:absolute; top:224px; width:547px; }
   #slide1 .slide-title { left:380px; position:absolute; top:180px; }
-    #slide1 .slide-title p { background:url("../img/envirotabs.png") 0 100% no-repeat; font-size:58px; line-height:65px; padding:0 0 110px; }
+    #slide1 .slide-title p { font-size:56px; line-height:65px; padding:50 0 0px; }
     #slide1 .slide-title.page2 p { font-size:48px; line-height:55px; }
     #slide1 .slide-title p { text-transform:uppercase; }
     #slide1 .slide-title span { display:block; font-family:'nerissemibold'; font-size:25px; line-height:30px; padding:15px 0 0; }
