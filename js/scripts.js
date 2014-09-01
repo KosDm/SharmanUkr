@@ -170,19 +170,19 @@ function popup(id, form, h1, h2, btn) { //onClick="popup('callback', '', '', '',
 		'top' : '50%'
  	});
   if(id == 'callback') {
- 		var def_h1 = 'Обратный звонок';
- 		var def_h2 = 'Оставьте заявку, чтобы заказать обратный звонок';
- 		var def_btn = 'Заказать звонок';
+ 		var def_h1 = 'Зворотній дзвінок';
+ 		var def_h2 = 'Залиште заявку, щоб замовити зворотній дзвінок';
+ 		var def_btn = 'Замовити дзвінок';
  	}
  	if(id == 'request') {
- 		var def_h1 = 'Оставить заявку';
- 		var def_h2 = 'Заполните форму,<br>и&nbsp;мы&nbsp;обязательно свяжемся с&nbsp;вами!';
- 		var def_btn = 'Оставить заявку';
+ 		var def_h1 = 'Залишити заявку';
+ 		var def_h2 = 'Заповніть форму,<br>і&nbsp;ми&nbsp;обов\'язково звяжемось з&nbsp;вами!';
+ 		var def_btn = 'Залишити заявку';
  	}
  	if(id == 'question') {
- 		var def_h1 = 'Задать вопрос';
- 		var def_h2 = 'Заполните форму,<br>и&nbsp;мы&nbsp;обязательно свяжемся с&nbsp;вами!';
- 		var def_btn = 'Задать вопрос';
+ 		var def_h1 = 'Задати питання';
+ 		var def_h2 = 'Заповніть форму,<br>і&nbsp;ми&nbsp;обов\'язково звяжемось з&nbsp;вами!';
+ 		var def_btn = 'Задати питання';
  	}
 	if(h1 != '') {$('#'+id).find('.popup-title').html(h1);} else {$('#'+id).find('.popup-title').html(def_h1);}
 	if(h2 != '') {$('#'+id).find('p').html(h2);} else {$('#'+id).find('p').html(def_h2);}
