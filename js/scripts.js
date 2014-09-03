@@ -100,7 +100,7 @@ $(document).ready(function() {
 				dataType: "json",
 				data: "name="+name+"&phone="+phone+"&buttonset"+"="+submit+"&email="+email+"&ques="+ques+"&formname="+formname+"&ref="+ref,
 				success:function(answ){
-					alert("information = " + data + "resultat= " + answ.result + " + " + answ.msg);
+					alert("resultat= " + answ.result + " + " + answ.msg);
 					
 				}
 			}).always(function() {
