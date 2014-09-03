@@ -1,7 +1,3 @@
-/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-/* Anton Lukashov | cassador.ru */
-
-/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* Tech Styles */
 
 * { margin:0; padding:0; outline:none; }
@@ -10,7 +6,6 @@ html, body { height:100%; -webkit-text-size-adjust:100%; text-size-adjust:100%; 
 .cl:after { clear:both; content:"."; display:block; height:0; visibility:hidden; }
 .bl { display:block; }
 
-/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* Main Styles */
 
 body { background:#fff; color:#666; font-family:'nerislight'; font-size:17px; }
@@ -31,7 +26,6 @@ textarea { overflow:auto; resize:none; }
   .popup .popup-title { border-bottom:solid 1px #666; font-family:'neristhin'; font-size:30px; line-height:40px; margin:0 0 20px; padding:0 0 10px; text-align:center; text-transform:uppercase; }
   .popup p { color:#3a7aaf; font-size:22px; line-height:25px; padding:0 0 20px; text-align:center; }
 
-/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* Forms */
 
 form { margin-right:-20px; }
@@ -98,6 +92,3 @@ form .btn.b2 { width:420px; }
   #slide11 .calc-section .calc-center .calc-sec1 label input { border:none; border-radius:25px; color:#000; height:54px; width:80px; }
 #slide11 .calc-section .calc-center .calc-sec2 label { border:none; border-radius:25px; height:54px; margin:0; vertical-align:middle; }
   #slide11 .calc-section .calc-center .calc-sec2 label input { border:none; border-radius:25px; color:#000; height:54px; width:80px; }
-
-/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-/* cassador.ru */

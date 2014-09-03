@@ -1,7 +1,3 @@
-/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-/* Anton Lukashov | cassador.ru */
-/* edited by wovo4ka | wovo4ka.ru */
-
 $(document).ready(function() {
   $("#slider").slider({
     range:"min",
@@ -120,7 +116,6 @@ $(document).ready(function() {
 	});
 });
 
-/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* Functions: */
 
 /* Popup Centration */
@@ -213,58 +208,3 @@ function thx() {
 	});
 	$('textarea').val('');
 }
-
-function calc(value) {
-	if(value == 'false')
-		var value = $('#slider').slider("value");
-	switch (value) {
-        case 0: var tits = 30
-          break
-        case 1: var tits = 40
-          break
-        case 2: var tits = 50
-          break
-        case 3: var tits = 60
-          break
-        case 4: var tits = 70
-          break
-        case 5: var tits = 80
-          break
-        case 6: var tits = 90
-          break
-        case 7: var tits = 100
-          break
-        case 8: var tits = 250
-          break
-        case 9: var tits = 500
-          break
-        case 10: var tits = 800
-          break
-        case 11: var tits = 1000
-          break
-        case 12: var tits = 2000
-          break
-        default: var tits = 100
-          break
-    }
-
-	var auto = $('.auto').val();
-	var rub = $('.rub').val();
-	var kop = $('.kop').val();
-	console.log(auto);
-	console.log(rub);
-	console.log(kop);
-	if(auto != '' && rub != '' && kop != '') {
-	  var price_rub = rub * tits * 48 * auto; // + Math.floor($('.kop').val()/100)
-	  var price_kop = kop * tits * 48 * auto;
-
-	  var result = price_rub + Math.floor(price_kop/100);
-	  var result = Math.floor(result * 0.15);
-	  $('.resultx').find('span').text(result);
-	}
-
-	$("#amount").text( tits );
-}
-
-/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-/* cassador.ru */

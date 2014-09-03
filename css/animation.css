@@ -1,12 +1,8 @@
-/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-/* Anton Lukashov | cassador.ru */
-
 .animated { -webkit-animation-duration:1s; animation-duration:1s; }
 .animated { -webkit-animation-fill-mode:both; animation-fill-mode:both; }
 
 .orbs .orb div, #slide4 .slide-block, #slide12 #bounty .bount, #slide12 #bounty .bount:before, .tabs .tab, .results .result, .review-right, .faq-block { opacity:0; }
 
-/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
 /* Animations */
 
 @-webkit-keyframes fadeIn {
@@ -125,6 +121,3 @@
 .animated.map div.flag2 { -webkit-animation-delay:0.2s; animation-delay:0.2s; }
 .animated.map div.flag3 { -webkit-animation-delay:0.4s; animation-delay:0.4s; }
 .animated.map div.flag4 { -webkit-animation-delay:0.6s; animation-delay:0.6s; }
-
-/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-/* cassador.ru */
