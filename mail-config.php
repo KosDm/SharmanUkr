@@ -1,8 +1,8 @@
 <?php 
 
 // put your email address here
-define('YOUR_EMAIL_ADDRESS', 'mail@themeinjection.com'); 
-define('YOUR_COMPANY_NAME', 'Car|Rental Landing Page'); 
+define('YOUR_EMAIL_ADDRESS', 'dk@kitgroup.com.ua'); 
+define('YOUR_COMPANY_NAME', 'Шарман Україна'); 
 
 $mailchimpSupport 	= true; // set 'true' to activate mailchimp support
 
