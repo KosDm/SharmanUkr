@@ -96,12 +96,16 @@ $(document).ready(function() {
 			var formname = $('input[name="formname"]').val();
 			$.ajax({
 				type: "GET",
-				url: url,
+				url: "contact.php",
 				dataType: "json",
 				data: "name="+name+"&phone="+phone+"&buttonset"+"="+submit+"&email="+email+"&ques="+ques+"&formname="+formname+"&ref="+ref
+				success:function(answ){
+					alert("information = " + data + "resultat= " + answ.result + " + " + answ.msg);
+					
+				}
 			}).always(function() {
 				//метрики
-				// thx();
+				thx();
 				// ga('send', 'event', ''+sbt, ''+sbt, ''+sbt);
 				// yaCounter25012874.reachGoal(''+sbt);
 			});
