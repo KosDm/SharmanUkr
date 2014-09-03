@@ -39,7 +39,7 @@ $(document).ready(function() {
   timer();
   
   var prefix = $('.prefix').val();
-	var url = prefix+"send.php";
+	var url = prefix+"contact.php";
 	var mobile = navigator.userAgent.toLowerCase().match(/(iphone|ipod|ipad|android)/);
 
   /* Youtube fix */
@@ -89,7 +89,7 @@ $(document).ready(function() {
 				phone = $('input[name="phone1"]', $form).val()+''+$('input[name="phone2"]', $form).val()+''+$('input[name="phone3"]', $form).val(),
 				email = $('input[name="email"]', $form).val(),
 				ques = $('textarea[name="ques"]', $form).val(),
-				sbt = $('.btn', $form).attr("data-name"),
+				//sbt = $('.btn', $form).attr("data-name"),
 				submit = $('.btn', $form).text();
 			var	ref = $('input[name="referer"]').val();
 			var ref = ref+request_url;
@@ -98,7 +98,7 @@ $(document).ready(function() {
 				type: "GET",
 				url: url,
 				dataType: "json",
-				data: "name="+name+"&phone="+phone+"&"+sbt+"="+submit+"&email="+email+"&ques="+ques+"&formname="+formname+"&ref="+ref
+				data: "name="+name+"&phone="+phone+"&buttonset"+"="+submit+"&email="+email+"&ques="+ques+"&formname="+formname+"&ref="+ref
 			}).always(function() {
 				//метрики
 				thx();
