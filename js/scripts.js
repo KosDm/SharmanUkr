@@ -10,7 +10,7 @@ $(document).ready(function() {
     }
   });
   $("#amount").text("100");
-  calc('false');
+  // calc('false');
 
   $('.kop, .rub, .auto').focus(function() {
 	$(this).keyup(function(){
