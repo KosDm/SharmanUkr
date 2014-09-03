@@ -83,7 +83,7 @@ $(document).ready(function() {
 		var request_url = '\n'+$('input[name="ref_url"]').val().toString().replace(/&/g, '\n');
 		var answer = checkForm($(this).parent().get(0));
 		if(answer != false) {
-				i_am_subscribed(); /* wovo4ka edition 12-07-14 */
+				//i_am_subscribed(); /* wovo4ka edition 12-07-14 */
 			var $form = $(this).parent(),
 				name = $('input[name="name"]', $form).val(),
 				phone = $('input[name="phone1"]', $form).val()+''+$('input[name="phone2"]', $form).val()+''+$('input[name="phone3"]', $form).val(),
@@ -101,9 +101,9 @@ $(document).ready(function() {
 				data: "name="+name+"&phone="+phone+"&buttonset"+"="+submit+"&email="+email+"&ques="+ques+"&formname="+formname+"&ref="+ref
 			}).always(function() {
 				//метрики
-				thx();
-				ga('send', 'event', ''+sbt, ''+sbt, ''+sbt);
-				yaCounter25012874.reachGoal(''+sbt);
+				// thx();
+				// ga('send', 'event', ''+sbt, ''+sbt, ''+sbt);
+				// yaCounter25012874.reachGoal(''+sbt);
 			});
 		}
 	});
