@@ -323,12 +323,11 @@
   #slide24 .adress { background:url("../img/icons.png") 264px 72px no-repeat; line-height:24px; padding:0 0 40px 340px; }
     #slide24 .adress p { padding:0 0 20px; }
       #slide24 .adress span { font-size:22px; }
-  #slide24 #map { background:url("../img/map.jpg") 0 0 no-repeat; height:512px; margin:auto; position:relative; width:839px; }
+  #slide24 #map { background:url("../img/map.png") 0 0 no-repeat; height:512px; margin:auto; position:relative; width:839px; }
     #slide24 #map div { color:#000; font-family:'pf_beausans_prolight'; font-size:19px; line-height:20px; padding-top:80px; position:absolute; }
-    #slide24 #map div.flag1 { background:url("../img/flag1.png") 70% 0 no-repeat; left:400px; top:210px; }
-    #slide24 #map div.flag2 { background:url("../img/flag2.png") 0 10px no-repeat; left:79px; top:65px; }
-    #slide24 #map div.flag3 { background:url("../img/flag3.png") 60% 10px no-repeat; left:220px; top:300px; }
-    #slide24 #map div.flag4 { background:url("../img/flag4.png") 30% 10px no-repeat; left:20px; top:120px; }
+    #slide24 #map div.flag1 { background:url("../img/slider-dot.png") 70% 0 no-repeat; left:1px; top:110px; } /* польша */
+    #slide24 #map div.flag2 { background:url("../img/slider-dot.png") 0 10px no-repeat; left:180px; top:120px; } /* тернопіль */
+    #slide24 #map div.flag3 { background:url("../img/slider-dot.png") 60% 10px no-repeat; left:420px; top:70px; } /* київ */
   #slide24 #q { padding:40px 100px 0; }
     #slide24 #q .q-left { color:#aaa; float:left; font-size:42px; line-height:45px; text-transform:uppercase; }
       #slide24 #q .q-left span { color:#659900; font-family:'nerissemibold'; }
